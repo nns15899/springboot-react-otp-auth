@@ -1,0 +1,36 @@
+# .gitignore for OtpAuthSystem (Spring Boot + React)
+
+# Java / Maven / Spring Boot
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.mvn/
+backend/HELP.md
+backend/*.iml
+
+# Node / React / Vite
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+frontend/.DS_Store
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+
+# VSCode
+.vscode/
+
+# Misc
+*.local
+*.sublime*
+
+# Ignore sensitive config (if any)
+backend/src/main/resources/application-local.properties
